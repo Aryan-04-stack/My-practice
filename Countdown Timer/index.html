@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h2 style="margin-bottom: 20px;">Please set Time greater than 0 even for seconds atleast 1 </h2>
+<body>
+    <h1></h1>
+    <div class="container">
+        <div class="timer">
+            <span id="days" class="time">00</span>
+            <span class="label">Days</span>
+        </div>
+        <div class="timer">
+            <span id="hrs" class="time">00</span>
+            <span class="label">Hrs</span>
+        </div>
+        <div class="timer">
+            <span id="mins" class="time">00</span>
+            <span class="label">Mins</span>
+        </div>
+        <div class="timer">
+            <span id="secs" class="time">00</span>
+            <span class="label">Sec</span>
+        </div>
+    </div>
+    <form>
+        <input type="number" placeholder=" Set Days" id="setdays">
+        <input type="number" placeholder=" Set Hours" id="sethrs">
+        <input type="number" placeholder=" Set Minutes" id="setmins">
+        <input type="number" placeholder=" Set Seconds" id="setsecs">
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    
+    <button id="start">Start</button>
+    <button id ='pause' class="Pause">Pause</button>
+
+    <script src="time.js"></script>
+</body>
+
+</html>
